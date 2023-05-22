@@ -1,0 +1,21 @@
+.statList {
+    display: flex;
+    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+}
+
+.title {
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: solid #c5c4c4;
+}
+
+.label {
+    font-size: 30px;
+text-align: center;
+}

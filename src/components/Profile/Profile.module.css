@@ -1,0 +1,38 @@
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.description {
+    padding: 10px;
+    text-align: center;
+}
+
+.avatar {
+    margin-top: 40px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.stats {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content;
+}
+
+.stats li {
+    border: solid #d7d3d3;
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+    background-color: #ebe7e7;
+    border-color: black;
+}
+
+.stats span {
+    display: block;
+}
