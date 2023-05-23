@@ -26,6 +26,7 @@ export const StatusCSS = styled.span`
 `;
 export const NameCSS = styled.p`
   display: block;
+  font-style: italic;
   font-size: 42px;
+  color: ${props => (props.isOnline ? 'green' : 'red')};
 `;
-// color: ${props => (props.children.is ? 'green' : 'red')};

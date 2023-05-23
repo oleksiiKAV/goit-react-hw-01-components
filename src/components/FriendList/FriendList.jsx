@@ -16,7 +16,7 @@ const FriendList = ({ friends }) => {
           <ItemCSS key={el.id}>
             <StatusCSS>{el.isOnline}</StatusCSS>
             <ImageCSS src={el.avatar} alt="User avatar" width="48" />
-            <NameCSS>{el.name}</NameCSS>
+            <NameCSS isOnline={el.isOnline}>{el.name}</NameCSS>
           </ItemCSS>
         ))}
       </ul>
