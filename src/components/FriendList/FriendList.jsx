@@ -4,7 +4,13 @@ import { ItemCSS, ImageCSS, StatusCSS, NameCSS } from './FriendList.styled';
 const FriendList = ({ friends }) => {
   return (
     <div>
-      <h2>Friends List </h2>
+      <h2
+        style={{
+          textAlign: 'center',
+        }}
+      >
+        Friends List
+      </h2>
       <ul className="friend-list">
         {friends.map(el => (
           <ItemCSS key={el.id}>

@@ -1,0 +1,35 @@
+td {
+    padding: 5px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+th {
+    background: rgb(122, 175, 241);
+    color: #f4e5f0;
+    border: 2px solid rgb(122, 175, 241);
+    letter-spacing: 2px;
+    text-align: left;
+    padding: 8px;
+}
+
+
+/* table {
+    border-collapse: collapse;
+    width: 100%;
+} */
+
+th,
+td {}
+
+tbody:nth-child(even) {
+    background-color: #878686;
+}
+
+
+.transactionHistory {
+    width: 620px;
+    font-size: 30px;
+    padding: 5px;
+    border: solid #cccccc;
+}
