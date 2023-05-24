@@ -22,6 +22,7 @@
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: max-content;
+
 }
 
 .stats li {
@@ -31,6 +32,7 @@
     padding: 20px;
     background-color: #ebe7e7;
     border-color: black;
+
 }
 
 .stats span {
